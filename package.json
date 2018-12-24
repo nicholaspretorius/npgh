@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "nicholaspretorius.github.io",
+  "description": "Personal GitHub Page, inspired by 'Today I Learned' blogs. Powered by Gatsby. ",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
