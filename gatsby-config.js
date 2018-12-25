@@ -22,7 +22,20 @@ module.exports = {
         {
             resolve: `gatsby-plugin-feed`
         },
+        {
+            resolve: `gatsby-plugin-manifest`, 
+            options: {
+                name: `PostCode`,
+                short_name: `PC`,
+                start_url: `/`,
+                background_color: `#007acc`,
+                theme_color: `#007acc`,
+                display: `standalone`
+            }
+        },
         `gatsby-plugin-styled-components`,
-        `gatsby-transformer-remark`
+        `gatsby-transformer-remark`,
+        `gatsby-plugin-offline`,
+        `gatsby-plugin-react-helmet`
     ],
 }

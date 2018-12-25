@@ -1,8 +1,13 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 
 export default ({ children }) => (
     <div style={{ margin:"0 auto", padding:"1rem", maxWidth: 650}}>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>PostCode</title>
+        </Helmet>
         <h2 style={{display:"inline-block"}}>PostCode</h2>
 
         <div style={{ margin: "3.5rem 0", float:"right"}}>
