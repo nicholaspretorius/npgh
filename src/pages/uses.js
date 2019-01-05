@@ -11,7 +11,7 @@ export default () => (
       <li>GitHub</li>
       <li>Gatsby, WordPress and Bear</li>
       <li>iTerm</li>
-      <li>Insomina</li>
+      <li>Insomnia</li>
       <li>Balsamiq, Sketch</li>
     </ul>
 
