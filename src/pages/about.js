@@ -11,7 +11,7 @@ export default () => (
     </p>
     <p>
       I also have many years experience writing HTML, CSS, Less and more
-      recently SASS. I prevous iterations of my career I have also worked with
+      recently SASS. In prevous iterations of my career I have also worked with
       WordPress and WordPress-style PHP.
     </p>
 
