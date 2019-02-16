@@ -3,7 +3,7 @@
   "description": "Personal GitHub Page, inspired by 'Today I Learned' blogs. Powered by Gatsby. ",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build",
     "rename": "mv public docs",
     "rebuild": "gatsby build && npm run rename",
