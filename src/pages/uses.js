@@ -3,7 +3,7 @@ import Container from "../components/container";
 
 export default () => (
   <Container>
-    <p>Using @ Home</p>
+    {/* <p>Using @ Home</p> */}
     <ul>
       <li>MacBook Pro 2012</li>
       <li>macOs High Sierra</li>
@@ -15,7 +15,7 @@ export default () => (
       <li>Balsamiq, Sketch</li>
     </ul>
 
-    <p>Using @ Work</p>
+    {/* <p>Using @ Work</p>
     <ul>
       <li>HP Elite Book</li>
       <li>Windows 10</li>
@@ -25,6 +25,6 @@ export default () => (
       <li>Microsoft Office</li>
       <li>Cmder</li>
       <li>Visio, Adobe Photoshop</li>
-    </ul>
+    </ul> */}
   </Container>
 );
