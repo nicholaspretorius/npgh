@@ -4,7 +4,7 @@ id: "the-last-great-tv-show"
 date: "2017-05-21"
 ---
 
-*Note: This post is a transplant. First published on 2017/05/15. It was written by myself on another site and has been moved.*
+*Note: This post is a transplant. First published on 2017/05/21. It was written by myself on another site and has been moved.*
 
 Game of Thrones will soon end. And with it, the last great TV show. What then for HBO?
 
