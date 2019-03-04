@@ -3,18 +3,15 @@ import Container from "../components/container";
 
 export default () => (
   <Container>
-    <h5>Nows.</h5>
+    <h5>Now.</h5>
     <ul>
-      <li>Building: Things.</li>
+      <li>Building: An app.</li>
       <li>Learning: React, Node.js, Gatsby.</li>
-      <li>
-        Watching (Course): Angular Core Deep Dive by Angular Univesity &amp;
-        Mastering React by Mosh Hamedani
-      </li>
       <li>Reading: Born to Run by Christopher McDougall.</li>
-      <li>Listenig (Audiobook): Red Rising by Pierce Brown.</li>
+      <li>Listening (Audiobook): Red Rising by Pierce Brown.</li>
       <li>Listening (Music): Overwerk: State. Moderat: II.</li>
       <li>Watching (Series): Peaky Blinders (Season 4)</li>
+      <li>Doing (Physical): Wakeskating</li>
     </ul>
 
     {/* <h5>Thens</h5>

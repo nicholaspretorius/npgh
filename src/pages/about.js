@@ -3,7 +3,7 @@ import Container from "../components/container";
 
 export default () => (
   <Container>
-    <p>I am a software developer. I write code and words.</p>
+    <p>I am a software designer and developer. I write code and words.</p>
 
     <p>
       I code with JavaScript in various flavours (ES6, TypeScript, AngularJs,

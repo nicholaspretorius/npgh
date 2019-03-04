@@ -5,14 +5,14 @@ export default () => (
   <Container>
     {/* <p>Using @ Home</p> */}
     <ul>
-      <li>MacBook Pro 2012</li>
-      <li>macOs High Sierra</li>
+      <li>MacBook Pro</li>
+      <li>macOS</li>
       <li>Visual Studio Code &amp; IntelliJ IDEA</li>
       <li>GitHub</li>
-      <li>Gatsby, WordPress and Bear</li>
-      <li>iTerm</li>
-      <li>Insomnia</li>
+      <li>Gatsby &amp; WordPress</li>
       <li>Balsamiq, Sketch</li>
+      <li>Insomnia REST Client</li>
+      <li>iTerm</li>
     </ul>
 
     {/* <p>Using @ Work</p>
