@@ -1,6 +1,6 @@
 ---
 title: "Google Stadia."
-id: "POST 031"
+id: "POST 032"
 date: "2019-03-30"
 ---
 
