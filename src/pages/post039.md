@@ -8,7 +8,6 @@ I am currently in Muizenberg in the Western Cape. The goal coming down here was 
 
 Today was the first time I have surfed in years! The last time was more or less 3 years ago on a trip to Chile. This was completely different though, for one reason! Getting a real, one-on-one surfing lesson. In the past, while surfing, I struggled with the pop-up. That is, moving from lying down and paddling to standing up and riding. Often times I would tip over on the pop-up. The reason for this, I discovered from my instructor was that I was not placing my foot in the center of the board. This my friends, made *all* the difference! I cannot even tell you how much fun it was riding today! 
 
-
 The waves were perfect! No wind, no side-current or wash, just regular, clean waves of decent beginner height. I even managed to catch a few open-faced waves in front of the white-water. So much fun!
 
 I have no idea why I did not ever get a surf lesson before. I recommend it whole-heartedly! There are so many small tips and nudges you get that push you in the right direction and help you improve your surfing enough to get the point that you are at least catching waves. Granted, I have some prior experience, mostly with other boardriding, but the trick with surfing, at least for the beginner, is the paddling, the wave selection, and the pop-up, and in this area I really lacked, but now, I feel I have, at least that bit of knowledge to take me to the next small step! 
