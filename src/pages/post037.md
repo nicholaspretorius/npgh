@@ -1,5 +1,5 @@
 ---
-title: "Guitar II."
+title: "Guitar Follow-Up."
 id: "POST 037"
 date: "2019-04-10"
 ---

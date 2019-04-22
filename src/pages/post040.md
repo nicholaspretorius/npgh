@@ -1,5 +1,5 @@
 ---
-title: "When the going is good."
+title: "When The Going is Good."
 id: "POST 040"
 date: "2019-04-13"
 ---
