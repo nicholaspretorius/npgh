@@ -7,11 +7,14 @@ export default () => (
     <ul>
       <li>Building: An app.</li>
       <li>Learning: React, Node.js, Gatsby.</li>
-      <li>Reading: Born to Run by Christopher McDougall.</li>
-      <li>Listening (Audiobook): Red Rising by Pierce Brown.</li>
-      <li>Listening (Music): Overwerk: State. Moderat: II.</li>
-      <li>Watching (Series): Peaky Blinders (Season 4)</li>
-      <li>Doing (Physical): Wakeskating</li>
+      <li>Reading: Royal Assassin by Robin Hobb.</li>
+      <li>Listening (Audiobook): A Feast for Crows by George RR Martin.</li>
+      <li>Listening (Music): Cage the Elephant. Shakey Graves. Father John Misty.</li>
+      <li>Watching (Series): Nothing at present...</li>
+      <li>
+        Doing (Physical): Learning to surf. Getting re-acquainted with skateboarding. Mountain
+        biking.
+      </li>
     </ul>
 
     {/* <h5>Thens</h5>
