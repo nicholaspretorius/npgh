@@ -8,7 +8,7 @@ export default () => (
       <li>Building: An app.</li>
       <li>Learning: React, Node.js, Gatsby.</li>
       <li>Reading: Royal Assassin by Robin Hobb.</li>
-      <li>Listening (Audiobook): A Feast for Crows by George RR Martin.</li>
+      <li>Listening (Audiobook): A Dance with Dragons by George RR Martin.</li>
       <li>Listening (Music): Cage the Elephant. Shakey Graves. Father John Misty.</li>
       <li>Watching (Series): Nothing at present...</li>
       <li>
