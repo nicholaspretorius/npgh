@@ -9,8 +9,8 @@ export default () => (
       <li>Learning: React, Node.js, Gatsby.</li>
       <li>Reading: Royal Assassin by Robin Hobb.</li>
       <li>Listening (Audiobook): A Dance with Dragons by George RR Martin.</li>
-      <li>Listening (Music): Cage the Elephant. Shakey Graves. Father John Misty.</li>
-      <li>Watching (Series): Nothing at present...</li>
+      <li>Listening (Music): Cage the Elephant. Shakey Graves. Crooked Colours.</li>
+      <li>Watching (Series): Nothing at present...not even Game of Thrones!</li>
       <li>
         Doing (Physical): Learning to surf. Getting re-acquainted with skateboarding. Mountain
         biking.
