@@ -6,7 +6,7 @@ date: "2019-04-27"
 
 These are the podcasts I have been listening to of late: 
 
-### Tech Meme Ride Home.
+### TechMeme Ride Home.
 
 Being a web developer, and having more than a passing interest in the broader technology industry, the Tech Meme Ride Home is a great way to keep in touch with the ongoing news in the sector. At only about 15-20 minutes long. It is easy to listen to while doing other things like cooking or cleaning up. 
 
