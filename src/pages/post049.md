@@ -1,10 +1,10 @@
 ---
 title: "Life Performance."
 id: "POST 049"
-date: "2019-04-28"
+date: "2019-04-29"
 ---
 
-I have been listening to an intriguing podcast episode on [The Ezra Klein Show](https://www.vox.com/ezra-klein-show-podcast), titled ["Work as identity, burnout as lifestyle"](https://podcasts.apple.com/us/podcast/work-as-identity-burnout-as-lifestyle/id1081584611?i=1000436045971), that discussed the concept of "workism" and how, in the past several decades, work, career and the concept of perpetual *burnout* has become the centrepiece of modern life. My feelings on work and this concept of workism are for another post on another day. Something that did catch my ear was a discussion around how our personal and social lives have become *workified* as well. 
+I have been listening to an intriguing podcast episode on [The Ezra Klein Show](https://www.vox.com/ezra-klein-show-podcast), titled ["Work as identity, burnout as lifestyle"](https://podcasts.apple.com/us/podcast/work-as-identity-burnout-as-lifestyle/id1081584611?i=1000436045971), that discussed the concept of "workism" and how, in the past several decades, work, career and the concept of perpetual burnout has become the centrepiece of modern life. My feelings on work and this concept of workism are for another post on another day. Something that did catch my ear was a discussion around how our personal and social lives have become *workified* as well. 
 
 Social media has lead to what one could call "life performance". Social media has amplified this desire in people to *perform* in their downtime. It is no longer enough just to "crush it" at work. You need to also be "crushing it" in your personal and social life. In essence, you need to continually be performing. To portray to others this carefully modelled and constructed viewpoint of yourl life and what you are doing on a day to day basis. 
 
