@@ -4,7 +4,7 @@ id: "POST 055"
 date: "2019-05-07"
 ---
 
-While doing some research yesterday on how to improve my surf pop-up, I came across this [image](https://i1.wp.com/surfstrengthcoach.com/wp-content/uploads/2018/11/Cook-FMS-Performance-Pyramid.jpg?fit=846%2C692&ssl=1) of the Performance Pyramid. At the base lies Movement, which is defined as "Movement quality as influenced by mobility and stability". In my mind, those two equate to flexibility and balance. 
+While doing research yesterday on how to improve my surf pop-up, I came across this [image](https://i1.wp.com/surfstrengthcoach.com/wp-content/uploads/2018/11/Cook-FMS-Performance-Pyramid.jpg?fit=846%2C692&ssl=1) of the Performance Pyramid. At the base lies Movement, which is defined as "Movement quality as influenced by mobility and stability". In my mind, those two equate to flexibility and balance. 
 
 Growing up I was very active. I spent my childhood tearing around outside whether on foot or bicycle and in later years I tore around hitting, kicking or throwing a ball in various ways. Despite all this, I was never flexible. I believe, I have a decent sense of balance though. When it comes to flexiblity, not so much. 
 
