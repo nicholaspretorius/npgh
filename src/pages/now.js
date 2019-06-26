@@ -6,14 +6,17 @@ export default () => (
     <h5>Now.</h5>
     <ul>
       <li>Building: An app.</li>
-      <li>Learning: React, Node.js, Gatsby.</li>
-      <li>Reading: Royal Assassin by Robin Hobb.</li>
+      <li>Learning: Ionic.</li>
+      <li>Reading: Assassin's Quest by Robin Hobb.</li>
       <li>Listening (Audiobook): A Dance with Dragons by George RR Martin.</li>
       <li>Listening (Music): Cage the Elephant. Shakey Graves. Crooked Colours.</li>
-      <li>Watching (Series): Nothing at present...not even Game of Thrones!</li>
       <li>
-        Doing (Physical): Learning to surf. Getting re-acquainted with skateboarding. Mountain
-        biking.
+        Watching (Series): No series at present. I do recommend watching The Inventor: Out for Blood
+        and Icarus.
+      </li>
+      <li>
+        Doing (Physical): Healing (I have a rib injury which is preventing me from surfing and
+        pretty much everything else).
       </li>
     </ul>
 
@@ -43,6 +46,8 @@ export default () => (
       </li>
       <li>Listening (Audiobook): A Storm of Swords by George R.R. Martin</li>
       <li>Watching (Series): Ozark. Season 2, Hinterland. Season 3.</li>
+      <li>Reading: Royal Assassin by Robin Hobb.</li>
+      <li>Watching (Series): Nothing at present...not even Game of Thrones!</li>
     </ul> */}
   </Container>
 );

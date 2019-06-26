@@ -1,12 +1,12 @@
 ---
-title: "Speed Bumps."
+title: "Potholes & Rabbit Holes."
 id: "POST 057"
 date: "2019-06-25"
 ---
 
 Modern web development services such as package managers (i.e. npm), CLIs (command-line interfaces) and code editor features like plugins and formatters undeniably make our coding lives much easier and saner. That 'automagical' sense of satisfaction you get by having your document auto-formatted each time you save. Or the ease with which you can install specific tools or rapidly generate boilerplate code so that you can focus on what you are actually doing is fantastic. 
 
-That being said, every now and then, you while crusing on the developer tools highway you hit a pothole you did not see coming! I spent the better part of yesterday first trying to fix my app's build which, out of the blue, refused to build. Then, after finally resolving that issue, my code editor's format-on-save feature was replacing all my single-quotes with double-quotes all the while my linter was shouting at me to make them all single-quotes again... 
+That being said, every now and then, while cruising on the developer tools highway you hit a pothole you did not see coming! I spent the better part of yesterday first trying to fix my app's build which, out of the blue, refused to build. Then, after finally resolving that issue, my code editor's format-on-save feature was replacing all my single-quotes with double-quotes all the while my linter was shouting at me to make them all single-quotes again... 
 
 Needless to say, I spent several hours trying to untangle the threads. In the end, as with many programming related difficulties, the solutions were very straight-forward, but as always, the journey towards those solutions was not! 
 
@@ -18,30 +18,33 @@ As a front-end web developer, I have long been attracted to 'building a mobile a
 
 At a point in the day, I was looking into using the so-called PWA Elements plugin to provide access to the local machine's Camera functionality. I ran: 
 
-npm install @ionic/pwa-elements
+```npm install @ionic/pwa-elements```
 
 And carried working. I then ran ionic serve and next thing noticed my build was not working. Reading the error message was not particularly enlightening either. In bright read it said the following: 
 
 Schema validation failed with the following errors:
-Data path “.builders[‘app-shell’]” should have required property ‘class’.
-[ERROR] ng has unexpectedly closed (exit code 1).
-The Ionic CLI will exit.
 
-Appropriately, I searched within my project for ".builders['app-shell']" to see if that would shed some light. No luck. I then Googled the message which quickly lead me to posts about inconsistencies between the version of the Angular CLI and a package known as @angular-devkit/angular-build. The solutions posted were straight-forward, basically, change the angular-build version and run npm install again. I tried this several times without success. Along the way I tried variations on the versions suggested as well as repeatedly removing my node_modules and re-installing them. I even went so far as to delete my local copy of the app, cloning it from repo and running it again. Still no luck. I then went so far as to clear my npm cache. But still, I kept getting the strange red error message. 
+```Data path ".builders['app-shell']" should have required property 'class'.```
+```[ERROR] ng has unexpectedly closed (exit code 1).```
+```The Ionic CLI will exit.```
 
-At this point I decided to try the regular ng serve command, which then threw up a much larger error not saying much, but saying a whole lot about rxjs. Sigh. In the end, after changing version numbers I noticed the error message had now changed from: 
+I searched within my project for ".builders['app-shell']" to see if that would shed some light. No luck. I then Googled the message which quickly lead me to posts about inconsistencies between the version of the Angular CLI and a package known as @angular-devkit/angular-build. The solutions posted were straight-forward, basically, change the angular-build version and run npm install again. I tried this several times without success. Along the way I tried variations on the versions suggested as well as repeatedly removing my node_modules and re-installing them. I even went so far as to delete my local copy of the app, cloning it from repo and running it again. Still no luck. I then went so far as to clear my npm cache. But still, I kept getting the strange red error message. 
 
-Data path “.builders[‘app-shell’]” should have required property ‘class’.
+At this point I decided to try the regular ```ng serve``` command, which then threw up a much larger error not saying much, but saying a whole lot about rxjs. Sigh. In the end, after changing version numbers I noticed the error message had now changed from: 
 
-To: 
+```Data path ".builders['app-shell']" should have required property 'class'.```
 
-'Data path '''' should NOT have additional properties (es5BrowserSupport)'
+to: 
+
+```Data path '''' should NOT have additional properties (es5BrowserSupport)```
 
 Ok! Great! This was progress. Catching onto the es5BrowserSupport, I searched for this in my project. Not found. Googling this, I found posts mentioning that this was a field used by a certain version of Angular CLI within the angular.json file. Searching for this in my own, I did not find this in my angular.json file. So it did not seem to be the issue. After much failure, I looped back to this particular point and decided to add the field to my file. Again, no noticeable impact. However, once I removed the field and ran the build... voila! It worked! 
 
-Relief. 
+Relief.
 
-Overjoyed that I could suddenly return to actual coding, I wroted some code, hit save and suddenly my file was auto-formatted precisely not how I wanted it! Ugh! I see rabbit hole, I descend. 
+### Format Failure.
+
+Overjoyed that I could suddenly return to actual coding, I wroted some code, hit save and suddenly my file was auto-formatted precisely not how I wanted it! Ugh! I see a rabbit hole, I descend. 
 
 Now, I need to mention this, some time ago, I got really into my VS Code plugins and auto-formatting. At the time I was trying out a few different libraries such as React and Vue and as such, need to apply some work to my VS Code config. Admittedly, once I had it doing what I wanted between the various libraries and file types, i.e. .js, .ts, .jsx, .vue etc along with their associated code completiong, hinting and linting etc. I was quite chuffed with what I had! Since then, I have left it alone. 
 
@@ -53,4 +56,6 @@ Long story short, all this auto-magical automation and tooling is great! It just
 
 As for the formatting, again, I don't know what happened? Did I mysteriously press some kind of key combination that switched something in my editor that I did not notice? Did me closing down several workspaces and removing old projects from my view lead me to somehow changing an obscure setting in my editor? 
 
-I don't know. What I do know, is that auto-magical could, also, in the worst case, lead one to auto-destruct if you are not careful! 
+I don't know. 
+
+What I do know, is that auto-magical could, also, in the worst case, lead one to auto-destruct if you are not careful! 
