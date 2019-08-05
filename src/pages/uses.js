@@ -10,7 +10,7 @@ export default () => (
       <li>Visual Studio Code &amp; IntelliJ IDEA</li>
       <li>GitHub</li>
       <li>Gatsby &amp; WordPress</li>
-      <li>Balsamiq, Sketch</li>
+      <li>Balsamiq, Sketch, Glide</li>
       <li>Insomnia REST Client</li>
       <li>iTerm</li>
     </ul>

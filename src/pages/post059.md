@@ -1,5 +1,5 @@
 ---
-title: "Glide Apps"
+title: "Glide Apps."
 id: "POST 059"
 date: "2019-07-10"
 ---

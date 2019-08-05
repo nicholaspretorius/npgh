@@ -5,19 +5,16 @@ export default () => (
   <Container>
     <h5>Now.</h5>
     <ul>
-      <li>Building: An app.</li>
-      <li>Learning: Ionic.</li>
+      <li>Building: Glide Apps and experimenting with the WordPress REST API.</li>
+      <li>Learning: React, Docker and Ionic.</li>
       <li>Reading: Assassin's Quest by Robin Hobb.</li>
       <li>Listening (Audiobook): A Dance with Dragons by George RR Martin.</li>
       <li>Listening (Music): Cage the Elephant. Shakey Graves. Crooked Colours.</li>
       <li>
-        Watching (Series): No series at present. I do recommend watching The Inventor: Out for Blood
-        and Icarus.
+        Watching (Series): The Terror. I do recommend watching The Inventor: Out for Blood and
+        Icarus.
       </li>
-      <li>
-        Doing (Physical): Healing (I have a rib injury which is preventing me from surfing and
-        pretty much everything else).
-      </li>
+      <li>Doing (Physical): Skateboarding. Healing (Rib injury preventing me from surfing).</li>
     </ul>
 
     {/* <h5>Thens</h5>
