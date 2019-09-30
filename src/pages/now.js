@@ -3,19 +3,21 @@ import Container from "../components/container";
 
 export default () => (
   <Container>
-    <h5>Now.</h5>
-    <ul>
-      <li>Building: Glide Apps and experimenting with the WordPress REST API.</li>
-      <li>Learning: React, Docker and Ionic.</li>
-      <li>Reading: Assassin's Quest by Robin Hobb.</li>
-      <li>Listening (Audiobook): A Dance with Dragons by George RR Martin.</li>
-      <li>Listening (Music): Cage the Elephant. Shakey Graves. Crooked Colours.</li>
-      <li>
-        Watching (Series): The Terror. I do recommend watching The Inventor: Out for Blood and
-        Icarus.
-      </li>
-      <li>Doing (Physical): Skateboarding. Healing (Rib injury preventing me from surfing).</li>
-    </ul>
+    <h3>Now.</h3>
+    <p>
+      <strong>Building:</strong> React, Node and Glide Apps.
+      <br />
+      <strong>Learning:</strong> React, React Native and Docker.
+      <br />
+      <strong>Reading:</strong> Assassin's Quest by Robin Hobb.
+      <br />
+      <strong>Listening (Audiobook):</strong> A Dance with Dragons by George RR Martin.
+      <br />
+      <strong>Listening (Music):</strong> Cage the Elephant. Shakey Graves. Crooked Colours.
+      <br />
+      <strong>Watching (Series):</strong> Dark.
+      <br />
+    </p>
 
     {/* <h5>Thens</h5>
     <ul>

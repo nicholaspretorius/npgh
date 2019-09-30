@@ -3,17 +3,35 @@ import Container from "../components/container";
 
 export default () => (
   <Container>
-    {/* <p>Using @ Home</p> */}
-    <ul>
-      <li>MacBook Pro</li>
-      <li>macOS</li>
-      <li>Visual Studio Code &amp; IntelliJ IDEA</li>
-      <li>GitHub</li>
-      <li>Gatsby &amp; WordPress</li>
-      <li>Balsamiq, Sketch, Glide</li>
-      <li>Insomnia REST Client</li>
-      <li>iTerm</li>
-    </ul>
+    <h3>Uses.</h3>
+    <p>
+      MacBook Pro
+      <br />
+      Visual Studio Code
+      <br />
+      GitHub
+      <br />
+      Gatsby &amp; WordPress
+      <br />
+      Balsamiq, Sketch, Glide
+      <br />
+      Insomnia REST Client
+      <br />
+      iTerm
+      <br />
+    </p>
+
+    <p>
+      <strong>This site is built on:</strong>
+      <br /> Gatsby + Typography Theme WordPress 2016, React, Git + GitHub, Visual Studio Code.
+    </p>
+
+    <p>
+      <strong>Inspired by: </strong>
+      <a href="https://github.com/jbranchaud/til" target="_blank" rel="noopener noreferrer">
+        https://github.com/jbranchaud/til
+      </a>
+    </p>
 
     {/* <p>Using @ Work</p>
     <ul>
