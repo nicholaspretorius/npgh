@@ -5,10 +5,12 @@ import { Link } from "gatsby";
 export default () => (
   <Container>
     <h3>About.</h3>
-    <p>Lifelong learner. JavaScript developer. I write code and (sometimes) words.</p>
+    <p>Lifelong learner.</p>
+    <p>Professionally: JavaScript developer. I write code and (sometimes) words.</p>
+    <p>Personally: I ride boards on concrete, water and sometimes snow.</p>
 
     <h4>Currently.</h4>
-    <p>On a self-funded sabbatical.</p>
+    <p>On Sabbatical.</p>
 
     <h4>Previously.</h4>
 

@@ -5,9 +5,9 @@ export default () => (
   <Container>
     <h3>Now.</h3>
     <p>
-      <strong>Building:</strong> React, Node and Glide Apps.
+      <strong>Building:</strong> Node, React and Glide Apps.
       <br />
-      <strong>Learning:</strong> React, React Native and Docker.
+      <strong>Learning:</strong> Redux, React Native and Docker.
       <br />
       <strong>Reading:</strong> Assassin's Quest by Robin Hobb.
       <br />
