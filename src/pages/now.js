@@ -7,7 +7,11 @@ export default () => (
     <p>
       <strong>Building:</strong> Node, React and Glide Apps.
       <br />
-      <strong>Learning:</strong> Redux, React Native and Docker.
+      <strong>Learning:</strong>{" "}
+      <a href="https://www.udacity.com/course/react-nanodegree--nd019">
+        Udacity React Developer Nanodegree
+      </a>
+      , Redux, React Native, Docker.
       <br />
       <strong>Reading:</strong> Assassin's Quest by Robin Hobb.
       <br />
