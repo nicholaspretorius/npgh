@@ -7,18 +7,18 @@ export default () => (
     <h3>About.</h3>
     <p>Lifelong learner.</p>
     <p>Professionally: JavaScript developer. I write code and (sometimes) words.</p>
-    <p>Personally: I ride boards on concrete, water and sometimes snow.</p>
+    <p>Personally: I enjoy wakeskating, surfing, snowboarding and mountain biking.</p>
 
     <h4>Currently.</h4>
-    <p>On Sabbatical.</p>
+    <p>Udacity React Developer Nanodegree.</p>
 
     <h4>Previously.</h4>
 
     <p>
-      2012 - 2019: Developer, UX analyst, team lead at BMW Group.
+      2012 - 2019: Fullstack JavaScript Developer, UX analyst, team lead at BMW Group.
       <Link to="/projects"> (Projects)</Link>
       <br />
-      2010 - 2012: Freelance web developer working in South Africa.
+      2010 - 2012: Freelance web developer and consultant working in South Africa.
       <br />
       2009 - 2010: Contract web developer working in London.
       <br />
@@ -26,7 +26,7 @@ export default () => (
       <br />
       2002 - 2005: B.IS Multimedia | University of Pretoria.
       <br />
-      1983 - 2001: Born, childhood, primary school, high school.
+      1983 - 2001: Childhood, primary school, high school.
     </p>
 
     <h5>Find me here</h5>

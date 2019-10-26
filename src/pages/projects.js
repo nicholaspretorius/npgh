@@ -11,7 +11,7 @@ export default () => (
       the Java/Digital Hub Team where I was the lead developer for the “Service Online” project. As
       of my departure, “Service Online” was operating in South Africa, Australia, New Zealand,
       Malaysia, Singapore, Thailand and numerous markets in the Middle East. During my time on that
-      project, I worked remotely from Barcelona for about a year.{" "}
+      project, I worked remotely from Barcelona for a year.{" "}
     </p>
     <h4>Service Online.</h4>
     <p>
@@ -23,18 +23,18 @@ export default () => (
       customised look and feel for both brands. The app further supported numerous other feature
       flags and options dependent on local market requirements. After our initial pilot, I moved the
       application from a SUSE Linux environment to Microsoft Azure. I was responsible for all Azure
-      related activities for the application. After 2.5 years, another developer joined the team and
+      related activities for the application. After 2.5 years, a new developer joined the team and
       along with him I oversaw the migration of the app to the LTS version of AngularJs (1.7), the
       integration of unit tests, the addition of an automated build/release pipeline via Azure
       DevOps as well as the concept proposal for the creation of a new admin area for markets to
       manage their content directly.{" "}
     </p>
     <p>
-      Throughout the course of the project I was involved in all aspects of design, documentation,
-      presentations, sprint planning and numerous other activities including research and
-      exploration of project expansion opportunities which included presenting our project at the
-      annual BMW IT Fair in Munich. This presentation resulted in project interest from BMW regions
-      covering markets in Europe and North Africa. During this time I also provided support,
+      Throughout the course of the project I was involved in all aspects of development, design,
+      documentation, presentations, sprint planning and numerous other activities including research
+      and exploration of project expansion opportunities which included presenting our project at
+      the annual BMW IT Fair in Munich. This presentation resulted in project interest from BMW
+      regions covering markets in Europe and North Africa. During this time I also provided support,
       technical diagrams and a fully documented Postman collection for a US based development team
       which was integrating the CDK API into the BMW Connected App.
     </p>
@@ -52,15 +52,14 @@ export default () => (
       elements to be used in the application and to be available in 3 corporate identities for BMW,
       BMW-Motorrad and MINI. All components needed to support translation. The components were built
       from scratch using HTML/SCSS and AngularJs and published as a private NPM package. I was
-      responsible for development and code review as we had numerous junior developers on the team
-      with limited experience. All source code was hosted in BitBucket with all work items being
-      tracked in Jira.
+      responsible for development of components, code review and mentoring the junior developers on
+      the team. All source code was hosted in BitBucket with all work items being tracked in Jira.
     </p>
     <p>
-      I was also involved in a separate branch of that project where we conducted a pilot project
-      for UX testing and analysis. This involved travelling to Munich and running workshops and UX
-      testing with stakeholders in Germany. We conducted a variety of tests including card sorts,
-      interviews and observation tests.{" "}
+      I was also involved in a separate branch of the same project where we conducted a pilot
+      project for UX testing and analysis. This involved travelling to Munich, Germany and running
+      workshops and UX testing with stakeholders in Germany. We conducted a variety of tests
+      including card sorts, interviews and observation tests.{" "}
     </p>
     <p>
       <strong>Project Elements:</strong> AngularJs/Typescript, HTML/SCSS, code review (BitBucket),
@@ -80,7 +79,7 @@ export default () => (
     <p>
       <strong>Project Elements:</strong> Wireframes, HTML/Less, AngularJs (created front-end
       components for JS developer to integrate), Google Analytics development, Google Analytics
-      reporting
+      reporting.
     </p>
     <h4>BMW Blog.</h4>
     <p>
@@ -92,7 +91,7 @@ export default () => (
     </p>
     <p>
       <strong>Project Elements:</strong> Wireframes, PHP/WordPress development, custom theme and
-      plugin
+      plugin development.
     </p>
 
     <h4>B1 (Internal Team Blog).</h4>
@@ -101,7 +100,7 @@ export default () => (
       document team information and processes. As a result, I setup a WordPress site to which all
       team members could post in order to record and store the shared knowledge of the team. During
       this time I wrote over 100 posts detailing all kinds of development and process related
-      information.{" "}
+      information for our team.{" "}
     </p>
 
     <h4>Other.</h4>
