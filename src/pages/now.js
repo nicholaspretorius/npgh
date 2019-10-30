@@ -7,7 +7,7 @@ export default () => (
     <p>
       <strong>Building:</strong> Node, React/React Native and Glide Apps.
       <br />
-      <strong>Learning:</strong>
+      <strong>Learning: </strong>
       <a href="https://www.udacity.com/course/react-nanodegree--nd019">
         Udacity Full Stack Developer Nanodegree
       </a>
