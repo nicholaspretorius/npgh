@@ -6,17 +6,36 @@ export default () => (
   <Container>
     <h3>About.</h3>
     <p>Lifelong learner.</p>
-    <p>Professionally: JavaScript developer. I write code and (sometimes) words.</p>
-    <p>Personally: I enjoy wakeskating, surfing, snowboarding and mountain biking.</p>
+    <p>Professionally: Full stack JavaScript developer. I write code and words.</p>
+    <p>
+      Personally: I enjoy wakeskating, surfing, snowboarding, skateboarding and mountain biking.
+    </p>
 
     <h4>Currently.</h4>
-    <p>Udacity React Developer Nanodegree.</p>
+    <p>
+      <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044">
+        Udacity: Full Stack Web Developer Nanodegree
+      </a>{" "}
+      (Python, Postgres, AWS).
+    </p>
+
+    <h4>Next.</h4>
+    <p>
+      <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
+        Cloud Developer Nanodegree
+      </a>{" "}
+      (AWS).
+    </p>
 
     <h4>Previously.</h4>
-
     <p>
-      2012 - 2019: Fullstack JavaScript Developer, UX analyst, team lead at BMW Group.
+      October 2019: <a href="https://confirm.udacity.com/2A67P92L">React Developer Nanodegree</a>{" "}
+      (React, Redux, React Native)
+      <br />
+      <br />
+      2012 - 2019: JavaScript Developer, UX analyst, team lead (BMW Group).
       <Link to="/projects"> (Projects)</Link>
+      <br />
       <br />
       2010 - 2012: Freelance web developer and consultant working in South Africa.
       <br />

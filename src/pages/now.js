@@ -5,21 +5,22 @@ export default () => (
   <Container>
     <h3>Now.</h3>
     <p>
-      <strong>Building:</strong> Node, React and Glide Apps.
+      <strong>Building:</strong> Node, React/React Native and Glide Apps.
       <br />
-      <strong>Learning:</strong>{" "}
+      <strong>Learning:</strong>
       <a href="https://www.udacity.com/course/react-nanodegree--nd019">
-        Udacity React Developer Nanodegree
+        Udacity Full Stack Developer Nanodegree
       </a>
-      , Redux, React Native, Docker.
+      <br />
+      <strong>Also learning:</strong>Jest/Cypress/Storybook/Detox.
       <br />
       <strong>Reading:</strong> Assassin's Quest by Robin Hobb.
       <br />
       <strong>Listening (Audiobook):</strong> A Dance with Dragons by George RR Martin.
       <br />
-      <strong>Listening (Music):</strong> Cage the Elephant. Shakey Graves. Crooked Colours.
+      <strong>Listening (Music):</strong> Skegss, Cage the Elephant. Shakey Graves. Crooked Colours.
       <br />
-      <strong>Watching (Series):</strong> Dark.
+      <strong>Watching (Series):</strong> Rome. <strike>Dark</strike>.
       <br />
     </p>
 
