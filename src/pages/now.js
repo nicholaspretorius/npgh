@@ -5,7 +5,7 @@ export default () => (
   <Container>
     <h3>Now.</h3>
     <p>
-      <strong>Building:</strong> Node, React/React Native and Glide Apps.
+      <strong>Building:</strong> Python, Node, React/React Native and Glide Apps.
       <br />
       <strong>Learning: </strong>
       <a href="https://www.udacity.com/course/react-nanodegree--nd019">
@@ -20,7 +20,8 @@ export default () => (
       <br />
       <strong>Listening (Music):</strong> Skegss, Cage the Elephant. Shakey Graves. Crooked Colours.
       <br />
-      <strong>Watching (Series):</strong> Rome. <strike>Dark</strike>.
+      <strong>Watching (Series):</strong> Taboo. What We Do In the Shadows.{" "}
+      <strike>His Dark Materials, Rome, Dark</strike>.
       <br />
     </p>
 

@@ -6,7 +6,7 @@ export default () => (
   <Container>
     <h3>About.</h3>
     <p>Lifelong learner.</p>
-    <p>Professionally: Full stack JavaScript developer. I write code and words.</p>
+    <p>Professionally: Full stack JavaScript (and Python!) developer. I write code and words.</p>
     <p>
       Personally: I enjoy wakeskating, surfing, snowboarding, skateboarding and mountain biking.
     </p>

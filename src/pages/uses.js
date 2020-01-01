@@ -15,7 +15,7 @@ export default () => (
       <br />
       Balsamiq, Sketch, Glide
       <br />
-      Insomnia REST Client
+      Postman, Insomnia REST Client
       <br />
       iTerm
       <br />
