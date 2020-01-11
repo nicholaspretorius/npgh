@@ -1,60 +1,31 @@
 import React from "react";
-import styled from "styled-components";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import Container from "../components/container";
 
-const BlogWrapper = styled.div`
-  margin: 0.5rem 0;
-  &:last-child {
-    border-bottom: 1px solid black;
-    margin-bottom: 0;
-    padding-bottom: 3rem;
-  }
-`;
+import BlogPost from "../templates/blog";
 
-const Title = styled.h3`
-    padding:0;
-    margin
-`;
+export default ({ data }) => {
+  console.log("Data: ", data);
+  const posts = data.allMarkdownRemark.edges;
 
-const Date = styled.span``;
+  return (
+    <Container>
+      <p>
+        A <em>very</em> rudimentary blog by Nicholas Pretorius.
+      </p>
 
-const Excerpt = styled.div`
-  margin: 0.5rem 0;
-`;
-
-const BlogPost = props => (
-  <BlogWrapper>
-    <Link to={props.to}>
-      <Title>{props.title}</Title>
-    </Link>
-    <Date>{props.date}</Date>
-    <Excerpt>{props.excerpt}</Excerpt>
-  </BlogWrapper>
-);
-
-export default ({ data }) => (
-  <Container>
-    <p>
-      A <em>very</em> rudimentary blog by Nicholas Pretorius.
-    </p>
-
-    {data.allMarkdownRemark.edges.map(({ node }) => (
-      <BlogPost
-        key={node.id}
-        title={node.frontmatter.title}
-        excerpt={node.excerpt}
-        to={node.fields.slug}
-        date={node.frontmatter.date}
-      />
-    ))}
-
-    {/* <BlogPost 
-            title="Testing 2"
-            excerpt="This is the excerpt!"
-        /> */}
-  </Container>
-);
+      {posts.map(({ node }) => (
+        <BlogPost
+          key={node.id}
+          title={node.frontmatter.title}
+          excerpt={node.excerpt}
+          to={node.fields.slug}
+          date={node.frontmatter.date}
+        />
+      ))}
+    </Container>
+  );
+};
 
 export const query = graphql`
   query IndexQuery {
