@@ -14,14 +14,13 @@ export default () => (
       <br />
       <strong>Also learning:</strong>Jest/Cypress/Storybook/Detox.
       <br />
-      <strong>Reading:</strong> Assassin's Quest by Robin Hobb.
+      <strong>Reading:</strong> The Shining by Stephen King.
       <br />
       <strong>Listening (Audiobook):</strong> A Dance with Dragons by George RR Martin.
       <br />
       <strong>Listening (Music):</strong> Skegss, Cage the Elephant. Shakey Graves. Crooked Colours.
       <br />
-      <strong>Watching (Series):</strong> Taboo. What We Do In the Shadows.{" "}
-      <strike>His Dark Materials, Rome, Dark</strike>.
+      <strong>Watching (Series):</strong> Nothing at the moment.
       <br />
     </p>
 
@@ -53,6 +52,9 @@ export default () => (
       <li>Watching (Series): Ozark. Season 2, Hinterland. Season 3.</li>
       <li>Reading: Royal Assassin by Robin Hobb.</li>
       <li>Watching (Series): Nothing at present...not even Game of Thrones!</li>
+       <strong>Reading:</strong> Assassin's Quest by Robin Hobb.
+       <strong>Watching (Series):</strong> Taboo. What We Do In the Shadows.{" "}
+      <strike>His Dark Materials, Rome, Dark</strike>.
     </ul> */}
   </Container>
 );
