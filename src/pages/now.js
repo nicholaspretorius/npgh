@@ -5,23 +5,23 @@ export default () => (
   <Container>
     <h3>Now.</h3>
     <p>
-      <strong>Building:</strong> Python, Node, React/React Native and Glide Apps.
+      <strong>Building:</strong> Full stack apps with Python/Node.js, React, Docker.
       <br />
       <strong>Learning: </strong>
-      <a href="https://www.udacity.com/course/react-nanodegree--nd019">
-        Udacity Full Stack Developer Nanodegree
+      <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
+        Cloud Developer Nanodegree
       </a>
-      <br />
-      <strong>Also learning:</strong>Jest/Cypress/Storybook/Detox.
+      {/* <br />
+      <strong>Also learning:</strong>Jest/Cypress/Storybook/Detox. */}
       <br />
       <strong>Reading:</strong> The Shining by Stephen King.
       <br />
       <strong>Listening (Audiobook):</strong> A Dance with Dragons by George RR Martin.
       <br />
-      <strong>Listening (Music):</strong> Skegss, Cage the Elephant. Shakey Graves. Crooked Colours.
-      <br />
+      <strong>Listening (Music):</strong> Skegss, Cage the Elephant. Crooked Colours.
+      {/* <br />
       <strong>Watching (Series):</strong> Nothing at the moment.
-      <br />
+      <br /> */}
     </p>
 
     {/* <h5>Thens</h5>

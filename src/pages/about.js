@@ -12,6 +12,26 @@ export default () => (
       biking.
     </p>
 
+    <h4>Find me here</h4>
+
+    <p>
+      <a href="https://github.com/nicholaspretorius" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+      ,{" "}
+      <a href="https://sourcerer.io/nicholaspretorius" target="_blank" rel="noopener noreferrer">
+        Sourceror
+      </a>
+      ,{" "}
+      <a
+        href="https://stackoverflow.com/users/4847180/nicholas-pretorius"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Stack Exchange
+      </a>
+    </p>
+
     <h4>Currently.</h4>
     <p>
       <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
@@ -53,26 +73,6 @@ export default () => (
       2002 - 2005: B.IS Multimedia | University of Pretoria.
       <br />
       1983 - 2001: Childhood, primary school, high school.
-    </p>
-
-    <h5>Find me here</h5>
-
-    <p>
-      <a href="https://github.com/nicholaspretorius" target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>
-      ,{" "}
-      <a href="https://sourcerer.io/nicholaspretorius" target="_blank" rel="noopener noreferrer">
-        Sourceror
-      </a>
-      ,{" "}
-      <a
-        href="https://stackoverflow.com/users/4847180/nicholas-pretorius"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Stack Exchange
-      </a>
     </p>
   </Container>
 );
