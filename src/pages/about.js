@@ -6,36 +6,43 @@ export default () => (
   <Container>
     <h3>About.</h3>
     <p>Lifelong learner.</p>
-    <p>Professionally: Full stack JavaScript (and Python!) developer. I write code and words.</p>
+    <p>Professionally: Full stack software engineer.</p>
     <p>
-      Personally: I enjoy wakeskating, surfing, snowboarding, skateboarding and mountain biking.
+      Personally: I enjoy wakeskating, wakeboarding, surfing, snowboarding and sometimes mountain
+      biking.
     </p>
 
     <h4>Currently.</h4>
     <p>
-      <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044">
-        Udacity: Full Stack Web Developer Nanodegree
+      <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
+        Cloud Developer Nanodegree
       </a>{" "}
-      (Python, Postgres, AWS).
+      (AWS, Node.js, TypeScript, Postgres).
     </p>
 
-    <h4>Next.</h4>
+    {/* <h4>Next.</h4>
     <p>
       <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
         Cloud Developer Nanodegree
       </a>{" "}
       (AWS).
-    </p>
+    </p> */}
 
     <h4>Previously.</h4>
     <p>
-      October 2019: <a href="https://confirm.udacity.com/2A67P92L">React Developer Nanodegree</a>{" "}
+      January 2020:{" "}
+      <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044">
+        Full Stack Web Developer Nanodegree
+      </a>{" "}
+      (Python, Postgres, AWS).
+      <br />
+      October 2019: <a href="https://confirm.udacity.com/2A67P92L">
+        React Developer Nanodegree
+      </a>{" "}
       (React, Redux, React Native)
       <br />
-      <br />
-      2012 - 2019: JavaScript Developer, UX analyst, team lead (BMW Group).
-      <Link to="/projects"> (Projects)</Link>
-      <br />
+      2012 - 2019:{" "}
+      <Link to="/projects">JavaScript Developer, UX analyst, team lead (BMW Group).</Link>
       <br />
       2010 - 2012: Freelance web developer and consultant working in South Africa.
       <br />
