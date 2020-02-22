@@ -5,55 +5,101 @@ export default () => (
   <Container>
     <h3>Notable Projects.</h3>
     <p>
-      During my 7 years as a contract developer to the BMW Group South Africa I worked: Firstly as a
-      front-end developer working across a variety of applications, primarily for the marketing
-      department. Then as the team-lead for the local Java development team and ultimately moving to
-      the Java/Digital Hub Team where I was the lead developer for the “Service Online” project. As
-      of my departure, “Service Online” was operating in South Africa, Australia, New Zealand,
-      Malaysia, Singapore, Thailand and numerous markets in the Middle East. During my time on that
-      project, I worked remotely from Barcelona for a year.{" "}
+      During my 7 years as a contract developer to the BMW Group South Africa I worked as: <br />
+      <br />
+      <ol>
+        <li>
+          Front-end developer working closely with the Java development team across a variety of
+          applications
+        </li>
+        <li>Team lead for the Java development team working closely with the design team</li>
+        <li>
+          JavaScript developer for the Java/Digital Hub Team.In that team I worked on a variety of
+          projects: <br />
+          <ul>
+            <li>Primarily, I was the lead developer for the “Service Online” project. </li>
+            <li>A senior frontend developer for the Online Sales components project. </li>
+            <li>Frontend developer for various projects for muktiple markets. </li>
+          </ul>
+          <br />
+          As of my departure, my primary project “Service Online” was operating in South Africa,
+          Australia, New Zealand, Malaysia, Singapore, Thailand and numerous markets in the Middle
+          East. During my time on that project, I worked remotely from Barcelona for a year.{" "}
+        </li>
+      </ol>
     </p>
     <h4>Service Online.</h4>
     <p>
-      This was an AngularJs single-page application built on top of the CDK “Service Online” API. It
-      supported the booking and management of service bookings for BMW and MINI owners. The
-      application was fully responsive, fully translatable, with all copy able to be customised to
-      local market requirements. We supported 3 languages including right-to-left (RTL) layouts in
-      Arabic. The application appeared in 2 different corporate identities for BMW and MINI with a
-      customised look and feel for both brands. The app further supported numerous other feature
-      flags and options dependent on local market requirements. After our initial pilot, I moved the
-      application from a SUSE Linux environment to Microsoft Azure. I was responsible for all Azure
-      related activities for the application. After 2.5 years, a new developer joined the team and
-      along with him I oversaw the migration of the app to the LTS version of AngularJs (1.7), the
-      integration of unit tests, the addition of an automated build/release pipeline via Azure
-      DevOps as well as the concept proposal for the creation of a new admin area for markets to
-      manage their content directly.{" "}
+      An AngularJs single-page application built on top of the CDK “Service Online” API. It
+      supported the booking and management of service bookings for BMW and MINI owners:{" "}
+    </p>
+
+    <ul>
+      <li>The application was mobile responsive</li>
+      <li>Fully translatable, with all copy able to be customised to local market requirements</li>
+      <li>We supported 3 languages including right-to-left (RTL) layouts in Arabic</li>
+      <li>
+        The application appeared in 2 different corporate identities for BMW and MINI with a
+        customised look and feel for both brands
+      </li>
+    </ul>
+    <p>
+      The app further supported numerous other feature flags and options dependent on local market
+      requirements. After our initial pilot, I moved the application from a SUSE Linux environment
+      to Microsoft Azure. I was responsible for all Azure related activities for the application.{" "}
+    </p>
+
+    <p>
+      When a new developer joined the team, I oversaw the:
+      <ul>
+        <li>Migration of the app to the LTS version of AngularJs (1.7)</li>
+        <li>Integration of unit tests</li>
+        <li>Addition of an automated build/release pipeline via Azure DevOps</li>
+        <li>
+          Concept proposal for the creation of a new admin area for markets to manage their content
+          directly
+        </li>
+      </ul>
+    </p>
+    <p>Throughout the course of the project I was involved in all aspects of: </p>
+    <ul>
+      <li>Development</li>
+      <li>Design</li>
+      <li>Documentation</li>
+      <li>Presentations</li>
+      <li>Sprint planning</li>
+    </ul>
+
+    <p>
+      I also undertook numerous other activities including research and exploration of project
+      expansion opportunities which included presenting our project at the annual BMW IT Fair in
+      Munich. This presentation resulted in project interest from BMW regions covering markets in
+      Europe and North Africa.{" "}
     </p>
     <p>
-      Throughout the course of the project I was involved in all aspects of development, design,
-      documentation, presentations, sprint planning and numerous other activities including research
-      and exploration of project expansion opportunities which included presenting our project at
-      the annual BMW IT Fair in Munich. This presentation resulted in project interest from BMW
-      regions covering markets in Europe and North Africa. During this time I also provided support,
-      technical diagrams and a fully documented Postman collection for a US based development team
-      which was integrating the CDK API into the BMW Connected App.
+      During this time I also provided support, technical diagrams and a fully documented Postman
+      collection for a US based development team which was integrating the CDK API into the BMW
+      Connected App.
     </p>
     <p>
       <strong>Project Elements:</strong> AngularJs, Node.js (with Express, Nodemailer and Handlebars
       templates), HTML/Less, Google Maps, Azure DevOps, Azure App Service, Let’s Encrypt SSL,
-      mockups in Balsamiq, design in Photoshop and presentations in InVision. Workflow diagrams.
-      Postman collections/API documentation.
+      mockups in Balsamiq, design in Photoshop/Sketch and presentations in InVision. Workflow
+      diagrams. Postman collections/API documentation.
     </p>
     <h4>Online Sales.</h4>
     <p>
-      I was a senior developer on the team responsible for building out an AngularJs component
-      library to be used in the parent Online Sales project which was a priority project for BMW
-      Germany with markets in the UK, Germany and China. The component library covered all UI
-      elements to be used in the application and to be available in 3 corporate identities for BMW,
-      BMW-Motorrad and MINI. All components needed to support translation. The components were built
-      from scratch using HTML/SCSS and AngularJs and published as a private NPM package. I was
-      responsible for development of components, code review and mentoring the junior developers on
-      the team. All source code was hosted in BitBucket with all work items being tracked in Jira.
+      I was a senior developer on the team responsible for building out an AngularJs/TypeScript
+      component library to be used in the parent Online Sales project which was a priority project
+      for BMW Germany with markets in the UK, Germany and China.
+    </p>
+    <p>
+      The component library covered all UI elements to be used in the application and to be
+      available in 3 corporate identities for BMW, BMW-Motorrad and MINI. All components needed to
+      support translation. The components were built from scratch using HTML/SCSS and AngularJs and
+      published as a private NPM package. I was responsible for development of components, code
+      review and mentoring the junior developers on the team. All source code was hosted in
+      BitBucket with all work items being tracked in Jira.
     </p>
     <p>
       I was also involved in a separate branch of the same project where we conducted a pilot
@@ -67,31 +113,50 @@ export default () => (
     </p>
     <h4>BMW Digital Showroom.</h4>
     <p>
-      I created wireframes and worked closely with the designer to get the application from concept
-      through to approval. While I did not do the AngularJs development on this project, I worked
-      closely with our Java/AngularJs developer and coded numerous portions of the front-end HTML
-      and CSS and oversaw many of the UI aspects of the project. Prior to launch, I was also
-      responsible for conceiving of and setting up the Google Analytics tracking and reporting. Post
-      launch I was responsible for the pilot implementation of a “use my location” feature,
-      inherited some design responsibilities as well as shared AngularJs development
-      responsibilities for several enhancements.
+      I played a leading role in the design and development of the BMW Digital Showroom project.
+      Playing multiple roles in this project, I took part in:
     </p>
+
+    <ul>
+      <li>
+        Created wireframes and worked closely with the designer to get the application from concept
+        through to approval
+      </li>
+      <li>
+        Worked closely with our Java/AngularJs developer and developed numerous portions of the
+        front-end HTML, CSS and JavaScript
+      </li>
+      <li>Oversaw many of the UI aspects of the project</li>
+      <li>Conceiving of and setting up the Google Analytics tracking and reporting</li>
+      <li>I was responsible for the pilot implementation of a “use my location” feature</li>
+      <li>Handled design for several features</li>
+      <li>Shared AngularJs development responsibilities for several enhancements.</li>
+    </ul>
     <p>
-      <strong>Project Elements:</strong> Wireframes, HTML/Less, AngularJs (created front-end
-      components for JS developer to integrate), Google Analytics development, Google Analytics
-      reporting.
+      <strong>Project Elements:</strong> AngularJs (created front-end components for JS developer to
+      integrate), Google Analytics development, Google Analytics reporting, HTML/Less, Wireframes,
+      post-launch design work.
     </p>
+
     <h4>BMW Blog.</h4>
     <p>
-      I created the wireframes, working closely with the designer to get all designs approved. From
-      there I handled all back-end WordPress/PHP development work (custom plugin and
-      login/registration integration) as well as front-end HTML/CSS and JavaScript development
-      (custom theme and forum theme). The BMW Blog integrated custom APIs to bring in user data and
-      manage registration and login.{" "}
+      As the primary developer on this project, I created wireframes and worked closely with the
+      designer to get all designs approved. From there I handled all:{" "}
+    </p>
+    <ul>
+      <li>
+        Backend WordPress/PHP development work (custom plugin and login/registration integration)
+      </li>
+      <li>Frontend HTML/CSS and JavaScript development (custom and forum themes)</li>
+      <li>Lead Java developers in work required for the registration and login API</li>
+    </ul>
+
+    <p>
+      The BMW Blog integrated custom APIs to bring in user data and manage registration and login.{" "}
     </p>
     <p>
-      <strong>Project Elements:</strong> Wireframes, PHP/WordPress development, custom theme and
-      plugin development.
+      <strong>Project Elements:</strong> PHP and WordPress development, custom theme and plugin
+      development. Wireframes.
     </p>
 
     <h4>B1 (Internal Team Blog).</h4>
