@@ -14,7 +14,7 @@ export default () => (
         </li>
         <li>Team lead for the Java development team working closely with the design team</li>
         <li>
-          JavaScript developer for the Java/Digital Hub Team.In that team I worked on a variety of
+          JavaScript developer for the Java/Digital Hub Team. In that team I worked on a variety of
           projects: <br />
           <ul>
             <li>Primarily, I was the lead developer for the “Service Online” project. </li>
@@ -155,8 +155,8 @@ export default () => (
       The BMW Blog integrated custom APIs to bring in user data and manage registration and login.{" "}
     </p>
     <p>
-      <strong>Project Elements:</strong> PHP and WordPress development, custom theme and plugin
-      development. Wireframes.
+      <strong>Project Elements:</strong> PHP, WordPress and JavaScript development, custom theme and
+      plugin development. Wireframes.
     </p>
 
     <h4>B1 (Internal Team Blog).</h4>
@@ -171,18 +171,31 @@ export default () => (
     <h4>Other.</h4>
     <p>
       During my time at the BMW Group, I was involved in numerous high-level projects for all BMW
-      Group brands both locally and internationally. Other notable projects included work for the
-      BMW Plant App in San Luis-Potosi in Mexico, the expansion of the Digital Showroom project to
-      include BMW-Motorrad in Russia as well as support and handover for the teams rolling out the
-      expansion of the the Digital Showroom to MINI and BMW-Motorrad locally. I designed and
-      developed the Admin UI for our in-house dealer website CMS. I was deeply involved in the
-      development of the front-ends for the BMW and MINI front-ends to all dealer websites as well
-      as the migrations of corporate identities for both brands. I also developed the front-end UI
-      and validation for all lead generation forms across several generations of corporate identity
-      for multiple brands as well as custom one off UIs. I was also heavily involved in the creation
-      and development of several iterations of dealer locators, multiple generations of the BMW,
-      MINI and Alphera finance websites as well as playing a overseeing role during the re-alignment
-      process for the group customer portals.
+      Group brands both locally and internationally. Other notable projects included:{" "}
+    </p>
+
+    <ul>
+      <li>AngularJs development for BMW Plant App in San Luis-Potosi in Mexico</li>
+      <li>
+        AngularJs, HTML and CSS development for the expansion of the Digital Showroom project to
+        include BMW-Motorrad in Russia as well as support and handover for the teams rolling out the
+        expansion of the the Digital Showroom to MINI and BMW-Motorrad locally
+      </li>
+      <li>
+        I designed and developed the Admin UI for our in-house dealer website CMS and was deeply
+        involved in the development of the front-ends for the BMW and MINI dealer websites as well
+        as the migrations of corporate identities for both brands.
+      </li>
+      <li>
+        I also developed the front-end UI and validation for all lead generation forms across
+        several generations of corporate identity for multiple brands as well as custom one off UIs
+      </li>
+    </ul>
+
+    <p>
+      I was also heavily involved in the creation and development of several iterations of dealer
+      locators, multiple generations of the BMW, MINI and Alphera finance websites as well as
+      playing a team lead role during the re-alignment process for the group customer portals.
     </p>
   </Container>
 );
