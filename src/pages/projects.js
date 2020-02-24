@@ -5,21 +5,24 @@ export default () => (
   <Container>
     <h3>Notable Projects.</h3>
     <p>
-      During my 7 years as a contract developer to the BMW Group South Africa I worked as: <br />
+      During my 7 years with BMW Group South Africa I worked as a: <br />
       <br />
       <ol>
         <li>
           Front-end developer working closely with the Java development team across a variety of
-          applications
+          applications.
         </li>
-        <li>Team lead for the Java development team working closely with the design team</li>
+        <li>Team lead for the Java development team working closely with the design team.</li>
         <li>
           JavaScript developer for the Java/Digital Hub Team. In that team I worked on a variety of
           projects: <br />
           <ul>
             <li>Primarily, I was the lead developer for the “Service Online” project. </li>
             <li>A senior frontend developer for the Online Sales components project. </li>
-            <li>Frontend developer for various projects for muktiple markets. </li>
+            <li>
+              Frontend developer for various projects running in markets such as Mexico, Germany,
+              China and the UK.{" "}
+            </li>
           </ul>
           <br />
           As of my departure, my primary project “Service Online” was operating in South Africa,
@@ -30,34 +33,36 @@ export default () => (
     </p>
     <h4>Service Online.</h4>
     <p>
-      An AngularJs single-page application built on top of the CDK “Service Online” API. It
-      supported the booking and management of service bookings for BMW and MINI owners:{" "}
+      An AngularJs single-page application built on top of the CDK “Service Online” API. The
+      application supported the booking and management of service appointments for BMW and MINI
+      owners:{" "}
     </p>
 
     <ul>
-      <li>The application was mobile responsive</li>
-      <li>Fully translatable, with all copy able to be customised to local market requirements</li>
-      <li>We supported 3 languages including right-to-left (RTL) layouts in Arabic</li>
+      <li>The application was mobile responsive.</li>
+      <li>Fully translatable, with all copy able to be customised to local market requirements.</li>
+      <li>We supported 3 languages including right-to-left (RTL) layouts in Arabic.</li>
       <li>
         The application appeared in 2 different corporate identities for BMW and MINI with a
-        customised look and feel for both brands
+        customised look and feel for both brands.
       </li>
     </ul>
     <p>
       The app further supported numerous other feature flags and options dependent on local market
-      requirements. After our initial pilot, I moved the application from a SUSE Linux environment
-      to Microsoft Azure. I was responsible for all Azure related activities for the application.{" "}
+      requirements. After our initial pilot, I migrated the application, domains and SSL
+      certificates to Microsoft Azure. I was responsible for all Azure related activities for the
+      application.{" "}
     </p>
 
     <p>
       When a new developer joined the team, I oversaw the:
       <ul>
-        <li>Migration of the app to the LTS version of AngularJs (1.7)</li>
-        <li>Integration of unit tests</li>
-        <li>Addition of an automated build/release pipeline via Azure DevOps</li>
+        <li>Migration of the app to the LTS version of AngularJs (1.7).</li>
+        <li>Integration of unit tests.</li>
+        <li>Addition of an automated build/release pipeline via Azure DevOps.</li>
         <li>
-          Concept proposal for the creation of a new admin area for markets to manage their content
-          directly
+          Concept proposal for the creation of a new admin portal for markets to manage their
+          content directly.
         </li>
       </ul>
     </p>
@@ -71,10 +76,10 @@ export default () => (
     </ul>
 
     <p>
-      I also undertook numerous other activities including research and exploration of project
-      expansion opportunities which included presenting our project at the annual BMW IT Fair in
-      Munich. This presentation resulted in project interest from BMW regions covering markets in
-      Europe and North Africa.{" "}
+      During this time I undertook numerous other activities including research and exploration of
+      project expansion opportunities which included presenting our project at the annual BMW IT
+      Fair in Munich. This presentation resulted in project interest from BMW regions covering
+      markets in Europe and North Africa.{" "}
     </p>
     <p>
       During this time I also provided support, technical diagrams and a fully documented Postman
@@ -82,10 +87,10 @@ export default () => (
       Connected App.
     </p>
     <p>
-      <strong>Project Elements:</strong> AngularJs, Node.js (with Express, Nodemailer and Handlebars
-      templates), HTML/Less, Google Maps, Azure DevOps, Azure App Service, Let’s Encrypt SSL,
-      mockups in Balsamiq, design in Photoshop/Sketch and presentations in InVision. Workflow
-      diagrams. Postman collections/API documentation.
+      <strong>Project Elements:</strong> AngularJs, Node.js (Express, Nodemailer and Handlebars),
+      HTML/Less, Google Maps, Azure DevOps, Azure App Service, Let’s Encrypt SSL, mockups in
+      Balsamiq, design in Photoshop and Sketch and presentations in InVision. Workflow diagrams.
+      Postman collections/API documentation.
     </p>
     <h4>Online Sales.</h4>
     <p>
@@ -120,16 +125,16 @@ export default () => (
     <ul>
       <li>
         Created wireframes and worked closely with the designer to get the application from concept
-        through to approval
+        through to approval.
       </li>
       <li>
-        Worked closely with our Java/AngularJs developer and developed numerous portions of the
-        front-end HTML, CSS and JavaScript
+        Worked closely with our Java/AngularJs developer and developed numerous components on the
+        front-end HTML, CSS and JavaScript.
       </li>
-      <li>Oversaw many of the UI aspects of the project</li>
-      <li>Conceiving of and setting up the Google Analytics tracking and reporting</li>
-      <li>I was responsible for the pilot implementation of a “use my location” feature</li>
-      <li>Handled design for several features</li>
+      <li>Oversaw many of the UI aspects of the project.</li>
+      <li>Conceiving of and setting up the Google Analytics tracking and reporting.</li>
+      <li>I was responsible for the pilot implementation of a “Use My Location” feature.</li>
+      <li>Handled design for several features.</li>
       <li>Shared AngularJs development responsibilities for several enhancements.</li>
     </ul>
     <p>
@@ -145,10 +150,10 @@ export default () => (
     </p>
     <ul>
       <li>
-        Backend WordPress/PHP development work (custom plugin and login/registration integration)
+        Backend WordPress/PHP development work (custom plugin and login/registration integration).
       </li>
-      <li>Frontend HTML/CSS and JavaScript development (custom and forum themes)</li>
-      <li>Lead Java developers in work required for the registration and login API</li>
+      <li>Frontend HTML/CSS and JavaScript development (custom and forum themes).</li>
+      <li>Lead Java developers in work required for the registration and login API.</li>
     </ul>
 
     <p>
@@ -175,11 +180,11 @@ export default () => (
     </p>
 
     <ul>
-      <li>AngularJs development for BMW Plant App in San Luis-Potosi in Mexico</li>
+      <li>AngularJs development for BMW Plant App in San Luis-Potosi in Mexico.</li>
       <li>
         AngularJs, HTML and CSS development for the expansion of the Digital Showroom project to
         include BMW-Motorrad in Russia as well as support and handover for the teams rolling out the
-        expansion of the the Digital Showroom to MINI and BMW-Motorrad locally
+        expansion of the the Digital Showroom to MINI and BMW-Motorrad in South Africa.
       </li>
       <li>
         I designed and developed the Admin UI for our in-house dealer website CMS and was deeply
@@ -187,8 +192,9 @@ export default () => (
         as the migrations of corporate identities for both brands.
       </li>
       <li>
-        I also developed the front-end UI and validation for all lead generation forms across
-        several generations of corporate identity for multiple brands as well as custom one off UIs
+        I also developed the front-end UI and validation for all lead generation forms (at the time)
+        across several generations of corporate identity for multiple brands as well as custom one
+        off UIs.
       </li>
     </ul>
 
