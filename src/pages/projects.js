@@ -14,8 +14,8 @@ export default () => (
         </li>
         <li>Team lead for the Java development team working closely with the design team.</li>
         <li>
-          JavaScript developer for the Java/Digital Hub Team. In that team I worked on a variety of
-          projects: <br />
+          JavaScript developer for the Java/Digital Hub Team serving BMW Group markets worldwide. In
+          that team I worked on a variety of projects: <br />
           <ul>
             <li>Primarily, I was the lead developer for the “Service Online” project. </li>
             <li>A senior frontend developer for the Online Sales components project. </li>
@@ -27,7 +27,7 @@ export default () => (
           <br />
           As of my departure, my primary project “Service Online” was operating in South Africa,
           Australia, New Zealand, Malaysia, Singapore, Thailand and numerous markets in the Middle
-          East. During my time on that project, I worked remotely from Barcelona for a year.{" "}
+          East. I worked remotely from Barcelona for a year.{" "}
         </li>
       </ol>
     </p>
