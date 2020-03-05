@@ -5,37 +5,36 @@ export default () => (
   <Container>
     <h3>Notable Projects.</h3>
     <p>
-      During my 7 years with BMW Group South Africa I worked as a: <br />
+      During my 7 years working for the BMW Group South Africa I contributed towards a diverse set
+      of highly visible websites and applications for both local and international markets in a
+      variety of roles: <br />
       <br />
       <ol>
-        <li>
-          Front-end developer working closely with the Java development team across a variety of
-          applications.
-        </li>
-        <li>Team lead for the Java development team working closely with the design team.</li>
+        <li>Frontend developer working closely with the Java development and design teams.</li>
+        <li>Team lead for the Java development team.</li>
         <li>
           JavaScript developer for the Java/Digital Hub Team serving BMW Group markets worldwide. In
-          that team I worked on a variety of projects: <br />
+          that team I worked on several projects: <br />
           <ul>
-            <li>Primarily, I was the lead developer for the “Service Online” project. </li>
-            <li>A senior frontend developer for the Online Sales components project. </li>
+            <li>Lead developer for the “Service Online” project. </li>
+            <li>Senior frontend developer for the Online Sales components project. </li>
             <li>
               Frontend developer for various projects running in markets such as Mexico, Germany,
               China and the UK.{" "}
             </li>
           </ul>
           <br />
-          As of my departure, my primary project “Service Online” was operating in South Africa,
+          As of my resignation, my primary project “Service Online” was operating in South Africa,
           Australia, New Zealand, Malaysia, Singapore, Thailand and numerous markets in the Middle
-          East. I worked remotely from Barcelona for a year.{" "}
+          East. During this time I worked remotely from Barcelona for a year.{" "}
         </li>
       </ol>
     </p>
     <h4>Service Online.</h4>
     <p>
-      An AngularJs single-page application built on top of the CDK “Service Online” API. The
-      application supported the booking and management of service appointments for BMW and MINI
-      owners:{" "}
+      An AngularJs single-page application built on top of the CDK “Service Online” API with a
+      custom Node.js API for markets not using the CDK API. The application supported the booking
+      and management of service appointments for BMW and MINI owners:{" "}
     </p>
 
     <ul>
