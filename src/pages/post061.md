@@ -413,7 +413,15 @@ In this file add the following:
 
 Essentially, we are re-creating the test we wrote with "supertest" except that Serverless framework is handling the implementation of the test. 
 
-Note: Furthermore, you could also use Postman to write your integration tests. Personally, my feeling is that you should do at least one of these approaches. Integration tests in code gives you more flexibility in terms of how exactly you compose or select what goes into an "integration" test, whereas the Serverless functionality, or writing in Postman requires less setup, but is only testing the request/response in its entirety. As it stands, we have all of the options available to us. 
+You run this functionality by running: `sls test`
+
+Note that in order for this to work, you need to be signed into the Serverless Dashboard. You can however, make use of the testing functionality without making use of the Serverless Dashboard CI/CD functionality. In order to do so, you need to add the SERVERLESS_ACCESS_KEY environment variable to your CI/CD provider so that it can access the Dashboard. This will however, not run the CI/CD in Serverless Dashboard. 
+
+### Other Integration Testing Options
+
+You could also use Postman to write your integration tests as they provide the capability to create collections of API endpoints and then to write integration tests that can run through the collection. 
+
+Personally, my feeling is that you should take at least one of these approaches. Integration tests in code gives you more flexibility in terms of how exactly you compose or select what goes into an "integration" test, whereas the Serverless functionality, or writing in Postman requires less setup, but is only testing the request/response in its entirety. As it stands, we have all of the options available to us. 
 
 ## Deployment
 
@@ -511,3 +519,19 @@ jobs:
 
 ```
 
+You will need to specify your AWS user profile in order to deploy: 
+
+* `serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`
+
+In your serverless.yml file, you can then specify the profile to be used in the "custom" section, add a section named "profiles" and add a "dev" property, with your AWS user profile named: 
+
+```
+...
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+  profiles:
+    dev: serverless-user
+...
+```
