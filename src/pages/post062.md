@@ -57,3 +57,29 @@ Then, in "package.json" add the following to "scripts":
 `"test:e2e": "./node_modules/.bin/cypress open",`
 
 This will open and run Cypress tests. 
+
+### Heroku
+
+We will be using Heroku to host our frontend, in order to do so, you need to ensure you have both the Heroku CLI and the Travis CLI installed. 
+
+Verify via: 
+
+* `heroku -v`
+
+Then run: `heroku login`
+
+#### Travis CLI
+
+In order to install the Travis CLI, you will need to have Ruby installed, at least at version 2. To check if you have Ruby, run: 
+
+* `ruby -v`
+
+From there, you can install the CLI via: `gem install travis`
+
+If you have problems with Ruby or openssl, you will need to rectify those issues in order to install the Travis CLI. Since everyone's local development environment will be different, I will outline the broad streps to take: 
+
+* `ruby -v` - Will tell you which version of Ruby you are running. Travis CLI will need at least v2.4.0, as of writing, the current version is 2.7.0 which is what I used. 
+* `which ruby` - Will tell you where Ruby is running from - this is important since if it is "/usr/local/bin/ruby" it is likely the default location of Ruby for Mac OS. This is probably very old. As such, you *likely* need to install a newer version of Ruby. 
+* `which openssl` - Will tell you which version of OpenSSL you have installed. Take note, it will *likely* be at "/usr/local/bin/openssl".
+
+In order to manage multiple versions of Ruby, you can install RVM (Ruby Version Manager). This will enable you to add a new version of Ruby, then update your PATH to point to that specific Ruby location. From there, Travis CI is a "gem" and will be installed via:  `gem install travis`
