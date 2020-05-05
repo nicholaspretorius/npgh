@@ -7,7 +7,7 @@ export default () => (
     <p>
       <strong>Building:</strong> Full stack apps with Python/Node.js, React, Docker.
       <br />
-      <strong>Preparing:</strong> AWS Associate Developer Certification
+      <strong>Preparing:</strong> AWS Associate Developer Certification.
       <br />
       {/* <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
         Cloud Developer Nanodegree
