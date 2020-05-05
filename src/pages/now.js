@@ -7,13 +7,13 @@ export default () => (
     <p>
       <strong>Building:</strong> Full stack apps with Python/Node.js, React, Docker.
       <br />
-      <strong>Learning: </strong>
-      <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
+      <strong>Preparing:</strong> AWS Associate Developer Certification
+      <br />
+      {/* <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
         Cloud Developer Nanodegree
-      </a>
+      </a> */}
       {/* <br />
       <strong>Also learning:</strong>Jest/Cypress/Storybook/Detox. */}
-      <br />
       <strong>Reading:</strong> The Shining by Stephen King.
       <br />
       <strong>Listening (Audiobook):</strong> A Dance with Dragons by George RR Martin.

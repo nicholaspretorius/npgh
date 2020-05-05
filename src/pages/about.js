@@ -32,13 +32,10 @@ export default () => (
       </a>
     </p>
 
-    <h4>Currently.</h4>
+    {/* <h4>Currently.</h4>
     <p>
-      <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
-        Cloud Developer Nanodegree
-      </a>{" "}
-      (AWS, Node.js, TypeScript, Postgres).
-    </p>
+      
+    </p> */}
 
     {/* <h4>Next.</h4>
     <p>
@@ -50,15 +47,19 @@ export default () => (
 
     <h4>Previously.</h4>
     <p>
-      January 2020:{" "}
+      May 2020:{" "}
+      <a href="https://www.udacity.com/course/cloud-developer-nanodegree--nd9990">
+        Cloud Developer Nanodegree
+      </a>{" "}
+      (AWS, Serverless, TypeScript).
+      <br />
+      Feb 2020:{" "}
       <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044">
         Full Stack Web Developer Nanodegree
       </a>{" "}
       (Python, Postgres, AWS).
       <br />
-      October 2019: <a href="https://confirm.udacity.com/2A67P92L">
-        React Developer Nanodegree
-      </a>{" "}
+      Oct 2019: <a href="https://confirm.udacity.com/2A67P92L">React Developer Nanodegree</a>{" "}
       (React, Redux, React Native)
       <br />
       2012 - 2019:{" "}
